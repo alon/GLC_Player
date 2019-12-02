@@ -21,7 +21,7 @@ win32 {
 }
 
 unix {
-    LIBS += -L"/usr/local/lib" -lGLC_lib.3
+    LIBS += -L"/usr/local/lib" -lGLC_lib
     INCLUDEPATH += "/usr/local/include/GLC_lib-3.0"
 }
 
