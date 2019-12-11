@@ -1,0 +1,12 @@
+Source: glcplayer
+Maintainer: Alon Levy <alon.levy@bladeranger.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9)
+
+Package: glcplayer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GLC Player
+ 3DXML viewer
