@@ -21,8 +21,8 @@ win32 {
 }
 
 unix {
-    LIBS += -L"/usr/local/lib" -lGLC_lib
-    INCLUDEPATH += "/usr/local/include/GLC_lib-3.0"
+    LIBS += -L"/usr/lib" -lGLC_lib
+    INCLUDEPATH += "/usr/include/GLC_lib-3.0"
 }
 
 TRANSLATIONS = ressources/glc_player_fr.ts
